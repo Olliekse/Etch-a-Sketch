@@ -1,0 +1,32 @@
+.div {
+  margin: 0;
+  background-color: grey;
+}
+
+.div:hover {
+  background-color: red;
+}
+
+.div-container {
+  width: 450px;
+  height: 450px;
+  display: flex;
+  gap: 1px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.main {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  width: 200px;
+  height: 100px;
+  align-self: center;
+  margin-top: 50px;
+  font-size: 30px;
+}
