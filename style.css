@@ -3,7 +3,7 @@
   background-color: grey;
 }
 
-.div:hover {
+.div_active {
   background-color: red;
 }
 

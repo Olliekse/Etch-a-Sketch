@@ -13,6 +13,9 @@ const loadGrid = () => {
     divEl.style.width = boxSize - 1 + "px";
     divEl.style.height = boxSize - 1 + "px";
     divContainer.appendChild(divEl);
+    divEl.addEventListener("mouseover", () => {
+      divEl.classList.add("div_active");
+    });
   }
 };
 
